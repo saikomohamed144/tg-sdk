@@ -40,7 +40,6 @@
   <a href="https://t.me/abdosaiko20">
     <img src="https://img.shields.io/badge/Telegram-@abdosaiko20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
----
 
 ## 🌟 Why @abdosaiko20/tg-sdk?
 

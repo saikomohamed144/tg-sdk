@@ -40,6 +40,12 @@
   <a href="https://t.me/abdosaiko20">
     <img src="https://img.shields.io/badge/Telegram-@abdosaiko20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
+  <a href="https://ton.org/">
+    <img src="https://img.shields.io/badge/TON_Wallet-UQBhv7U7Jt_HH6S219IrqM4ARl6S-d_3xxgf5tbw5DgGsxch-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet"/>
+  </a>
+</p>
+
+---
 
 ## 🌟 Why @abdosaiko20/tg-sdk?
 
@@ -840,10 +846,6 @@ await bot.sendMessage(chatId, message, {
     <img src="https://img.shields.io/badge/📱_Telegram-@abdosaiko20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
   &nbsp;&nbsp;
-  <a href="#">
-    <img src="https://img.shields.io/badge/💎_TON_Wallet-UQBhv7U7Jt_HH6S219IrqM4ARl6S-d_3xxgf5tbw5DgGsxch-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet"/>
-  </a>
-</p>
 
 <p align="center">
   <strong>TON Wallet Address:</strong><br/>

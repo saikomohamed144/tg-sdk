@@ -1,0 +1,88 @@
+{
+  "name": "tg-lite",
+  "version": "1.0.1",
+  "description": "Lightweight, production-ready, comprehensive Telegram SDK for Bots and Mini Apps",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./react": {
+      "import": "./dist/react.mjs",
+      "require": "./dist/react.js",
+      "types": "./dist/react.d.ts"
+    },
+    "./types": {
+      "import": "./dist/types.mjs",
+      "require": "./dist/types.js",
+      "types": "./dist/types.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/react.ts --format cjs,esm --dts --clean --external react --external http --external https",
+    "dev": "tsup src/index.ts src/react.ts --format cjs,esm --dts --watch --external react --external http --external https",
+    "prepublishOnly": "npm run build",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write 'src/**/*.ts'"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "bot-api",
+    "mini-app",
+    "webapp",
+    "sdk",
+    "lightweight",
+    "typescript",
+    "telegram-bot",
+    "telegram-mini-app",
+    "telegram-webapp",
+    "polling",
+    "webhook",
+    "keyboard",
+    "inline-keyboard",
+    "markdown",
+    "payment",
+    "stars"
+  ],
+  "author": "tg-sdk team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "hhttps://github.com/saikomohamed144/tg-sdk"
+  },
+  "homepage": "https://github.com/saikomohamed144/tg-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/saikomohamed144/tg-sdk/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "sideEffects": false
+}

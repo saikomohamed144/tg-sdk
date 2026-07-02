@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/tg-sdk/main/assets/logo.png" alt="TG SDK Logo" width="200" height="200">
 </p>
 
 <h1 align="center">@abdosaiko20/tg-sdk</h1>

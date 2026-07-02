@@ -1,6 +1,6 @@
 {
-  "name": "tg-lite",
-  "version": "1.0.1",
+  "name": "@abdosaiko20/tg-sdk",
+  "version": "1.0.0",
   "description": "Lightweight, production-ready, comprehensive Telegram SDK for Bots and Mini Apps",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

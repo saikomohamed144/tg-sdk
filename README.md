@@ -2,7 +2,7 @@
 
 🚀 **Lightweight, production-ready, comprehensive Telegram SDK** for Bots and Mini Apps.
 
-[![npm version](https://badge.fury.io/js/@abdosaiko20/tg--sdk.svg)](https://www.npmjs.com/package/@abdosaiko20/tg-sdk)
+[![npm version](https://badge.fury.io/js/@abdosaiko20/tg-sdk.svg)](https://www.npmjs.com/package/@abdosaiko20/tg-sdk)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)

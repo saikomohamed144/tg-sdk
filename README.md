@@ -862,7 +862,7 @@ MIT © [@abdosaiko20](https://github.com/saikomohamed144)
 
 ## 🔗 Links
 
-- 📦 [NPM Package](https://www.npmjs.com/package/saikomohamed144/tg-sdk)
+- 📦 [NPM Package](https://www.npmjs.com/package/@abdosaiko20/tg-sdk)
 - 💻 [GitHub Repository](https://github.com/saikomohamed144/tg-sdk)
 - 🐛 [Issue Tracker](https://github.com/saikomohamed144/tg-sdk/issues)
 - 📖 [Telegram Bot API Docs](https://core.telegram.org/bots/api)

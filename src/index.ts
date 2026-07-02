@@ -110,18 +110,17 @@ export {
 } from './utils';
 
 // ==================== Default Export ====================
+// استخدام import() الديناميكي للـ default export لتجنب مشاكل الـ circular dependency
 const tg = {
-  // Core
-  isTelegram: () => require('./core').isTelegram(),
-  isMiniApp: () => require('./core').isMiniApp(),
-  platform: () => require('./core').platform(),
-  version: () => require('./core').version(),
-  user: () => require('./core').getUser(),
-  theme: () => require('./core').getThemeParams(),
-  isDark: () => require('./core').isDarkMode(),
-  viewport: () => require('./core').getViewport(),
-
-  // Mini App
+  get isTelegram() { return require('./core').isTelegram; },
+  get isMiniApp() { return require('./core').isMiniApp; },
+  get platform() { return require('./core').platform; },
+  get version() { return require('./core').version; },
+  get user() { return require('./core').getUser; },
+  get theme() { return require('./core').getThemeParams; },
+  get isDark() { return require('./core').isDarkMode; },
+  get viewport() { return require('./core').getViewport; },
+  
   ready: require('./mini-app').ready,
   expand: require('./mini-app').expand,
   close: require('./mini-app').close,
@@ -131,31 +130,30 @@ const tg = {
   showPopup: require('./mini-app').showPopup,
   showAlert: require('./mini-app').showAlert,
   showConfirm: require('./mini-app').showConfirm,
-  MainButton: require('./mini-app').MainButton,
-  BackButton: require('./mini-app').BackButton,
-  SettingsButton: require('./mini-app').SettingsButton,
-  HapticFeedback: require('./mini-app').HapticFeedback,
-  CloudStorage: require('./mini-app').CloudStorage,
-  Clipboard: require('./mini-app').Clipboard,
-  Biometric: require('./mini-app').Biometric,
+  
+  get MainButton() { return require('./mini-app').MainButton; },
+  get BackButton() { return require('./mini-app').BackButton; },
+  get SettingsButton() { return require('./mini-app').SettingsButton; },
+  get HapticFeedback() { return require('./mini-app').HapticFeedback; },
+  get CloudStorage() { return require('./mini-app').CloudStorage; },
+  get Clipboard() { return require('./mini-app').Clipboard; },
+  get Biometric() { return require('./mini-app').Biometric; },
+  
   getLocation: require('./mini-app').getLocation,
   scanQr: require('./mini-app').scanQr,
   onEvent: require('./mini-app').onEvent,
   offEvent: require('./mini-app').offEvent,
   onThemeChanged: require('./mini-app').onThemeChanged,
 
-  // Builders
   markdown: require('./markdown').markdown,
-  html: require('./html').html,
+  html: require('./markdown').html,
   inlineKeyboard: require('./keyboard').inlineKeyboard,
   replyKeyboard: require('./keyboard').replyKeyboard,
   removeKeyboard: require('./keyboard').removeKeyboard,
   forceReply: require('./keyboard').forceReply,
 
-  // Bot
-  Bot: require('./bot').BotClient,
+  get Bot() { return require('./bot').BotClient; },
 
-  // Utilities
   sleep: require('./utils').sleep,
   randomId: require('./utils').randomId,
   uuid: require('./utils').uuid,

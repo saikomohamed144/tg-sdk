@@ -1,145 +1,73 @@
 <p align="center">
+  <img src="https://ibb.co/Tx1bChYM" alt="@abdosaiko20/tg-sdk" width="200"/>
 </p>
 
 <h1 align="center">@abdosaiko20/tg-sdk</h1>
 
 <p align="center">
-  <strong>Lightweight, Production-Ready Telegram SDK for Bots & Mini Apps</strong>
+  <strong>🚀 Lightweight, Production-Ready, Comprehensive Telegram SDK</strong>
+</p>
+
+<p align="center">
+  <em>Build powerful Telegram Bots & Mini Apps with elegance and speed</em>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@abdosaiko20/tg-sdk">
-    <img src="https://img.shields.io/npm/v/@abdosaiko20/tg-sdk?color=blue&style=flat-square" alt="npm version">
+    <img src="https://img.shields.io/npm/v/@abdosaiko20/tg-sdk.svg?style=flat-square" alt="npm version"/>
   </a>
   <a href="https://www.npmjs.com/package/@abdosaiko20/tg-sdk">
-    <img src="https://img.shields.io/npm/dm/@abdosaiko20/tg-sdk?color=blue&style=flat-square" alt="npm downloads">
+    <img src="https://img.shields.io/npm/dm/@abdosaiko20/tg-sdk.svg?style=flat-square" alt="npm downloads"/>
   </a>
   <a href="https://bundlephobia.com/package/@abdosaiko20/tg-sdk">
-    <img src="https://img.shields.io/bundlephobia/minzip/@abdosaiko20/tg-sdk?style=flat-square" alt="bundle size">
-  </a>
-  <a href="https://github.com/yourusername/tg-sdk/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/yourusername/tg-sdk?color=blue&style=flat-square" alt="license">
+    <img src="https://img.shields.io/bundlephobia/minzip/@abdosaiko20/tg-sdk?style=flat-square" alt="bundle size"/>
   </a>
   <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/badge/TypeScript-5.3+-3178C6?logo=typescript&logoColor=white&style=flat-square" alt="TypeScript">
+    <img src="https://img.shields.io/badge/TypeScript-5.3+-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
   </a>
   <a href="https://nodejs.org/">
-    <img src="https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white&style=flat-square" alt="Node.js">
+    <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
   </a>
-  <a href="https://github.com/yourusername/tg-sdk/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/tg-sdk/ci.yml?branch=main&style=flat-square" alt="CI">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/>
+  </a>
+  <a href="https://github.com/abdosaiko20/tg-sdk/stargazers">
+    <img src="https://img.shields.io/github/stars/abdosaiko20/tg-sdk?style=flat-square" alt="Stars"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-documentation">Documentation</a> •
-  <a href="#-examples">Examples</a> •
-  <a href="#-api-reference">API Reference</a> •
-  <a href="#-contributing">Contributing</a>
+  <a href="https://t.me/abdosaiko20">
+    <img src="https://img.shields.io/badge/Telegram-@abdosaiko20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  <a href="https://ton.org/">
+    <img src="https://img.shields.io/badge/TON_Wallet-UQC...xyz-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet"/>
+  </a>
 </p>
 
 ---
 
-## 📖 Table of Contents
-
-- [Features](#-features)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-  - [Bot API (Polling)](#bot-api-with-polling)
-  - [Bot API (Webhook)](#bot-api-with-webhook)
-  - [Mini Apps](#mini-apps)
-  - [React Hooks](#react-hooks)
-  - [Next.js Integration](#nextjs-integration)
-- [Core Concepts](#-core-concepts)
-  - [BotClient](#botclient)
-  - [Router & Middleware](#router--middleware)
-  - [Keyboard Builders](#keyboard-builders)
-  - [Markdown & HTML Builders](#markdown--html-builders)
-  - [Session Management](#session-management)
-  - [Plugin System](#plugin-system)
-- [Advanced Usage](#-advanced-usage)
-  - [Broadcast System](#broadcast-system)
-  - [Telegram Stars (Payments)](#telegram-stars-payments)
-  - [File Handling](#file-handling)
-  - [Error Handling](#error-handling)
-  - [Rate Limiting](#rate-limiting)
-- [API Reference](#-api-reference)
-- [TypeScript Support](#-typescript-support)
-- [Platform Support](#-platform-support)
-- [Examples](#-examples)
-- [Contributing](#-contributing)
-- [Security](#-security)
-- [FAQ](#-faq)
-- [Changelog](#-changelog)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-
----
-
-## ✨ Features
+## 🌟 Why @abdosaiko20/tg-sdk?
 
 <table>
   <tr>
     <td width="50%">
-      <h3>🎯 Complete Bot API</h3>
-      <p>Full coverage of Telegram Bot API with all methods, types, and features including messages, media, payments, games, stickers, and more.</p>
+      <h3>🎯 Complete & Comprehensive</h3>
+      <p>Every single Telegram Bot API method, every Mini App feature, every keyboard type - all in one lightweight package with <strong>zero runtime dependencies</strong>.</p>
     </td>
     <td width="50%">
-      <h3>📱 Mini Apps Support</h3>
-      <p>Complete Telegram WebApp API integration with MainButton, BackButton, HapticFeedback, CloudStorage, Biometric auth, and more.</p>
+      <h3>⚡ Blazing Fast</h3>
+      <p>Built on modern ES2022, tree-shakeable, with automatic retries, rate limiting, and connection pooling out of the box.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <h3>⚡ Dual Update Methods</h3>
-      <p>Built-in support for both <strong>Long Polling</strong> and <strong>Webhook</strong> with automatic retry and error recovery.</p>
+      <h3>💪 Fully Typed</h3>
+      <p>Complete TypeScript definitions for every function, parameter, and response. Enjoy autocomplete and type safety everywhere.</p>
     </td>
     <td>
-      <h3>🎨 Fluent Builders</h3>
-      <p>Elegant builder pattern for Inline Keyboards, Reply Keyboards, Markdown, and HTML with full type safety.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🔄 Middleware Engine</h3>
-      <p>Express/Koa-style middleware system with Router supporting commands, text patterns, regex, callbacks, and events.</p>
-    </td>
-    <td>
-      <h3>💾 Session Management</h3>
-      <p>Built-in session support with custom storage adapters (Redis, MongoDB, SQL, file system, etc.).</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🔌 Plugin Architecture</h3>
-      <p>Extensible plugin system for adding custom functionality, logging, rate limiting, analytics, etc.</p>
-    </td>
-    <td>
-      <h3>⭐ Telegram Stars</h3>
-      <p>Complete payment integration with Stars invoices, pre-checkout handling, and refund support.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>📡 Broadcast System</h3>
-      <p>Efficient message broadcasting with configurable concurrency, delays, retry logic, and progress tracking.</p>
-    </td>
-    <td>
-      <h3>⚛️ React Hooks</h3>
-      <p>First-class React support with 15+ custom hooks for all Telegram features.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🔒 Type Safety</h3>
-      <p>100% TypeScript with complete type definitions for all APIs, methods, and responses.</p>
-    </td>
-    <td>
-      <h3>0️⃣ Zero Dependencies</h3>
-      <p>No runtime dependencies. Minimal bundle size (~5KB gzipped). Fully tree-shakeable.</p>
+      <h3>🌍 Universal</h3>
+      <p>Runs everywhere: Node.js, Deno, Bun, Cloudflare Workers, Vercel Edge, React, Next.js, Vue, Svelte, Angular, and more.</p>
     </td>
   </tr>
 </table>
@@ -162,144 +90,178 @@ pnpm add @abdosaiko20/tg-sdk
 bun add @abdosaiko20/tg-sdk
 ```
 
-### Optional Peer Dependencies
+---
 
-```bash
-# For React hooks
-npm install react
+## 🏗️ Architecture
 
-# For TypeScript types
-npm install --save-dev @types/react
+```
+@abdosaiko20/tg-sdk/
+├── 🤖 Bot API          →  Full Telegram Bot API with 100+ methods
+├── 📱 Mini Apps        →  Complete WebApp API for Telegram Mini Apps
+├── 🎨 Keyboards        →  Fluent builders for Inline & Reply keyboards
+├── 📝 Formatters       →  MarkdownV2 & HTML safe builders
+├── 🔄 Middleware        →  Express-like middleware engine
+├── 🛣️ Router           →  Command, hears, action, event routing
+├── 💾 Sessions          →  Built-in session with custom storage adapters
+├── 🔌 Plugins          →  Extensible plugin architecture
+├── ⭐ Payments          →  Telegram Stars & invoice management
+├── 📡 Broadcast        →  Message broadcasting with concurrency control
+└── ⚛️ React             →  First-class React hooks
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### Bot API with Polling
+### 🤖 Telegram Bot (Polling)
 
 ```typescript
-import { BotClient } from '@abdosaiko20/tg-sdk';
+import { BotClient, inlineKeyboard, markdown } from '@abdosaiko20/tg-sdk';
 
 // Initialize bot
-const bot = new BotClient({
-  token: 'YOUR_BOT_TOKEN',
-  polling: {
-    timeout: 30,
-    allowedUpdates: ['message', 'callback_query']
+const bot = new BotClient({ 
+  token: 'YOUR_BOT_TOKEN'
+});
+
+// Handle /start command
+bot.on('message', async (msg) => {
+  if (msg.text === '/start') {
+    // Create beautiful inline keyboard
+    const keyboard = inlineKeyboard()
+      .text('🚀 Get Started', 'start')
+      .url('🌐 Website', 'https://example.com')
+      .row()
+      .text('ℹ️ Help', 'help')
+      .text('⭐ Premium', 'premium')
+      .build();
+    
+    // Build formatted message
+    const welcomeMsg = markdown()
+      .bold('Welcome to My Bot!')
+      .newLine()
+      .text('Choose an option below:')
+      .toString();
+
+    await bot.sendMessage(msg.chat.id, welcomeMsg, {
+      parse_mode: 'MarkdownV2',
+      reply_markup: keyboard
+    });
   }
 });
 
-// Handle messages
-bot.on('message', async (message) => {
-  if (message.text === '/start') {
-    await bot.sendMessage(message.chat.id, 'Welcome to the bot! 🚀');
-  }
+// Start polling for updates
+bot.startPolling();
+console.log('🤖 Bot is running...');
+```
+
+### 🌐 Telegram Bot (Webhook)
+
+```typescript
+import { BotClient, Router, Context } from '@abdosaiko20/tg-sdk';
+
+const bot = new BotClient({ token: process.env.BOT_TOKEN! });
+const router = new Router();
+
+// Define routes
+router.command('start', async (ctx) => {
+  const c = ctx as Context;
+  await c.replyWithMarkdown(
+    markdown()
+      .bold('Welcome!')
+      .newLine()
+      .text('I am a webhook-powered bot.')
+      .toString()
+  );
 });
 
-// Handle callback queries
-bot.on('callback_query', async (query) => {
-  await bot.answerCallbackQuery(query.id, {
-    text: 'Button clicked!',
-    show_alert: true
+router.hears(/hello|hi|hey/i, async (ctx) => {
+  const c = ctx as Context;
+  await c.reply(`Hello, ${c.user?.first_name || 'there'}! 👋`);
+});
+
+router.action('premium', async (ctx) => {
+  const c = ctx as Context;
+  await c.answer('Opening premium features...');
+  await c.edit('🌟 Premium features unlocked!');
+});
+
+// Connect router to bot
+bot.on('message', async (update) => {
+  const ctx = new Context({ update_id: 0, message: update } as any, bot);
+  await router.middleware()(ctx, async () => {
+    await bot.sendMessage(ctx.chatId!, 'Command not recognized. Try /start');
   });
 });
 
-// Start polling
-await bot.startPolling();
-console.log('Bot is running...');
+// Setup webhook
+await bot.setWebhook('https://your-domain.com/api/telegram', {
+  secret_token: 'your-secret-token'
+});
+
+// Start webhook server
+await bot.startWebhook({ 
+  port: 3000, 
+  path: '/api/telegram',
+  secretToken: 'your-secret-token'
+});
+
+console.log('🌐 Webhook server running on port 3000');
 ```
 
-### Bot API with Webhook
-
-```typescript
-import { BotClient } from '@abdosaiko20/tg-sdk';
-import express from 'express';
-
-const bot = new BotClient({ token: 'YOUR_BOT_TOKEN' });
-const app = express();
-
-// Handle updates
-bot.on('message', async (message) => {
-  await bot.sendMessage(message.chat.id, 'Hello from Webhook!');
-});
-
-// Express webhook endpoint
-app.post('/webhook', async (req, res) => {
-  const update = req.body;
-  
-  // Emit update to bot handlers
-  bot.emit('update', update);
-  
-  // Or process directly
-  if (update.message) {
-    bot.emit('message', update.message);
-  }
-  
-  res.json({ ok: true });
-});
-
-// Set webhook URL
-await bot.setWebhook('https://your-domain.com/webhook', {
-  secret_token: 'my-secret-token'
-});
-
-app.listen(3000, () => {
-  console.log('Webhook server running on port 3000');
-});
-```
-
-### Mini Apps
+### 📱 Telegram Mini App
 
 ```typescript
 import tg from '@abdosaiko20/tg-sdk';
 
-// Initialize the Mini App
+// Initialize Mini App
 tg.ready();
 tg.expand();
 
-// Get current user
+// Get user information
 const user = tg.user();
-console.log(`Hello, ${user?.first_name}!`);
+console.log(`👤 User: ${user?.first_name} ${user?.last_name}`);
 
-// Check theme
+// Theme support
 const isDark = tg.isDark();
-const colors = tg.theme();
+document.body.className = isDark ? 'dark-theme' : 'light-theme';
 
-// Main Button configuration
-tg.MainButton.setText('Submit Order');
+// Main Button with progress
+tg.MainButton.setText('💾 Save Settings');
 tg.MainButton.setColor('#4CAF50');
 tg.MainButton.setTextColor('#FFFFFF');
 tg.MainButton.show();
 
-tg.MainButton.onClick(() => {
-  tg.HapticFeedback.notificationOccurred('success');
-  tg.sendData(JSON.stringify({
-    action: 'submit_order',
-    items: ['item1', 'item2']
-  }));
+tg.MainButton.onClick(async () => {
+  tg.MainButton.showProgress();
+  
+  try {
+    // Save to cloud storage
+    await tg.CloudStorage.set('settings', JSON.stringify({
+      theme: isDark ? 'dark' : 'light',
+      notifications: true
+    }));
+    
+    tg.HapticFeedback.notificationOccurred('success');
+    await tg.showAlert('✅ Settings saved successfully!');
+  } catch (error) {
+    tg.HapticFeedback.notificationOccurred('error');
+    await tg.showAlert('❌ Failed to save settings');
+  } finally {
+    tg.MainButton.hideProgress();
+  }
 });
 
-// Show confirmation dialog
-const confirmed = await tg.showConfirm('Are you sure you want to proceed?');
-if (confirmed) {
-  await tg.showAlert('Order submitted successfully!');
-}
-
-// Cloud Storage
-await tg.CloudStorage.set('preferences', JSON.stringify({
-  theme: 'dark',
-  notifications: true
-}));
-
-const prefs = await tg.CloudStorage.get('preferences');
-console.log('User preferences:', JSON.parse(prefs));
+// Back button
+tg.BackButton.show();
+tg.BackButton.onClick(() => {
+  tg.close();
+});
 ```
 
-### React Hooks
+### ⚛️ React Integration
 
 ```tsx
-import React, { useEffect } from 'react';
+import { useState } from 'react';
 import {
   useTelegram,
   useTelegramUser,
@@ -307,326 +269,499 @@ import {
   useTelegramMainButton,
   useTelegramPopup,
   useTelegramHapticFeedback,
-  useTelegramCloudStorage,
 } from '@abdosaiko20/tg-sdk/react';
 
-function App() {
-  const { isTelegram, isMiniApp, platform } = useTelegram();
+export default function MiniApp() {
+  const { isMiniApp, platform } = useTelegram();
   const user = useTelegramUser();
-  const { isDark, params: themeColors } = useTelegramTheme();
+  const { isDark, params } = useTelegramTheme();
   const mainButton = useTelegramMainButton();
   const popup = useTelegramPopup();
   const haptic = useTelegramHapticFeedback();
-  const storage = useTelegramCloudStorage();
+  const [count, setCount] = useState(0);
 
+  // Configure main button
   useEffect(() => {
     if (isMiniApp) {
-      // Configure Main Button
-      mainButton.setText('Start Game 🎮');
-      mainButton.setColor('#FF6B6B');
+      mainButton.setText(`🎯 Clicks: ${count}`);
+      mainButton.setColor(isDark ? '#8774E1' : '#6C5CE7');
       mainButton.show();
-
-      // Handle button click
+      
       mainButton.onClick(async () => {
-        haptic.impactOccurred('heavy');
+        haptic.impactOccurred('light');
+        setCount(prev => prev + 1);
         
-        const confirmed = await popup.confirm('Ready to play?');
-        if (confirmed) {
-          await storage.set('gameState', 'started');
-          // Start game logic
+        if (count >= 10) {
+          const confirmed = await popup.confirm('🏆 Reset counter?');
+          if (confirmed) setCount(0);
         }
       });
     }
-  }, [isMiniApp]);
+  }, [isMiniApp, count, isDark]);
 
-  if (!isTelegram) {
-    return (
-      <div style={styles.fallback}>
-        <h2>Please open this app in Telegram</h2>
-        <p>This is a Telegram Mini App</p>
-      </div>
-    );
+  if (!isMiniApp) {
+    return <div>Please open in Telegram</div>;
   }
 
   return (
     <div style={{
-      backgroundColor: themeColors.bg_color || (isDark ? '#1a1a1a' : '#ffffff'),
-      color: themeColors.text_color || (isDark ? '#ffffff' : '#000000'),
+      backgroundColor: isDark ? params.bg_color : '#FFFFFF',
+      color: isDark ? params.text_color : '#000000',
       minHeight: '100vh',
-      padding: '20px',
+      padding: '24px',
+      fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif'
     }}>
-      <header>
-        <h1>Welcome, {user?.first_name || 'User'}! 👋</h1>
-        <p>Platform: {platform}</p>
-        {user?.is_premium && <span>⭐ Premium User</span>}
+      <header style={{ textAlign: 'center', marginBottom: '40px' }}>
+        <h1 style={{ fontSize: '2rem', margin: '0 0 8px' }}>
+          👋 Hello, {user?.first_name || 'User'}!
+        </h1>
+        <p style={{ opacity: 0.7 }}>
+          Platform: {platform} • Theme: {isDark ? '🌙 Dark' : '☀️ Light'}
+        </p>
       </header>
 
-      <main>
+      <main style={{ textAlign: 'center' }}>
         <div style={{
-          backgroundColor: themeColors.secondary_bg_color || '#f0f0f0',
-          borderRadius: '12px',
-          padding: '20px',
-          marginTop: '20px',
+          background: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.05)',
+          borderRadius: '20px',
+          padding: '40px',
+          marginBottom: '20px'
         }}>
-          <h2>Your Dashboard</h2>
-          <p>Theme: {isDark ? '🌙 Dark' : '☀️ Light'}</p>
+          <h2 style={{ fontSize: '4rem', margin: '0' }}>{count}</h2>
+          <p style={{ opacity: 0.6 }}>Button Clicks</p>
         </div>
       </main>
     </div>
   );
 }
-
-const styles = {
-  fallback: {
-    display: 'flex',
-    flexDirection: 'column' as const,
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    fontFamily: 'Arial, sans-serif',
-  },
-};
-
-export default App;
 ```
 
-### Next.js Integration
+---
 
-#### App Router (Client Component)
-
-```tsx
-// app/page.tsx
-'use client';
-
-import { useTelegramUser, useTelegramTheme } from '@abdosaiko20/tg-sdk/react';
-
-export default function HomePage() {
-  const user = useTelegramUser();
-  const { isDark } = useTelegramTheme();
-
-  return (
-    <main className={isDark ? 'dark-theme' : 'light-theme'}>
-      <h1>Hello, {user?.first_name || 'Guest'}!</h1>
-      <p>Welcome to the Next.js Telegram Mini App</p>
-    </main>
-  );
-}
-```
-
-#### API Route Handler (Bot Webhook)
+## 💰 Telegram Stars (Payments)
 
 ```typescript
-// app/api/telegram/route.ts
-import { NextRequest, NextResponse } from 'next/server';
 import { BotClient } from '@abdosaiko20/tg-sdk';
 
-const bot = new BotClient({ token: process.env.TELEGRAM_BOT_TOKEN! });
+const bot = new BotClient({ token: 'YOUR_BOT_TOKEN' });
 
-// Set up handlers
-bot.on('message', async (message) => {
-  if (message.text === '/start') {
-    await bot.sendMessage(message.chat.id, 'Hello from Next.js! 🚀');
+// Handle invoice creation
+bot.on('message', async (msg) => {
+  if (msg.text === '/premium') {
+    await bot.sendStarsInvoice(msg.chat.id, {
+      title: '⭐ Premium Access',
+      description: 'Unlock all premium features for 1 month',
+      payload: 'premium_monthly',
+      prices: [{ label: 'Premium', amount: 100 }],
+      max_tip_amount: 200,
+      suggested_tip_amounts: [100, 150, 200],
+      photo_url: 'https://example.com/premium-banner.jpg',
+      need_name: true,
+      need_email: true,
+    });
   }
 });
 
-export async function POST(request: NextRequest) {
+// Handle pre-checkout
+bot.on('pre_checkout_query', async (query) => {
+  await bot.answerPreCheckoutQuery(query.id, true);
+});
+
+// Handle successful payment
+bot.on('message', async (msg) => {
+  if (msg.successful_payment) {
+    await bot.sendMessage(
+      msg.chat.id,
+      '🎉 Thank you for your purchase! Premium features activated.'
+    );
+    
+    // Refund example (if needed)
+    // await bot.refundStarPayment(
+    //   msg.from!.id,
+    //   msg.successful_payment.telegram_payment_charge_id
+    // );
+  }
+});
+```
+
+---
+
+## 📡 Broadcast System
+
+```typescript
+const results = await bot.broadcast(
+  'sendMessage',
+  { 
+    text: '🔔 Important Announcement!',
+    parse_mode: 'HTML'
+  },
+  {
+    chatIds: [123456789, 987654321, 555555555],
+    concurrency: 10,
+    delay: 500,
+    stopOnError: false,
+    onStart: (total) => {
+      console.log(`📡 Broadcasting to ${total} users...`);
+    },
+    onProgress: (current, total) => {
+      const percent = ((current / total) * 100).toFixed(1);
+      console.log(`Progress: ${current}/${total} (${percent}%)`);
+    },
+    onSuccess: (chatId, result) => {
+      console.log(`✅ Sent to ${chatId}`);
+    },
+    onError: (chatId, error) => {
+      console.error(`❌ Failed for ${chatId}:`, error.message);
+    },
+    onFinish: (results) => {
+      const success = results.filter(r => r.success).length;
+      const failed = results.length - success;
+      console.log(`
+📊 Broadcast Complete:
+  ✅ Success: ${success}
+  ❌ Failed: ${failed}
+  📈 Success Rate: ${((success / results.length) * 100).toFixed(1)}%
+      `);
+    }
+  }
+);
+```
+
+---
+
+## 🔧 Advanced Examples
+
+### Session Management with Redis
+
+```typescript
+import { BotClient, SessionManager, Context } from '@abdosaiko20/tg-sdk';
+import Redis from 'ioredis';
+
+const redis = new Redis();
+const bot = new BotClient({ token: 'TOKEN' });
+
+// Redis session storage
+const session = new SessionManager({
+  get: async (key) => {
+    const data = await redis.get(`session:${key}`);
+    return data ? JSON.parse(data) : null;
+  },
+  set: async (key, data) => {
+    await redis.set(`session:${key}`, JSON.stringify(data), 'EX', 3600);
+  },
+  delete: async (key) => {
+    await redis.del(`session:${key}`);
+  }
+});
+
+// Apply session middleware
+bot.use(session.middleware());
+
+// Use sessions in handlers
+bot.on('message', async (update) => {
+  const ctx = new Context({ update_id: 0, message: update } as any, bot);
+  
+  // Initialize session
+  ctx.session = ctx.session || {};
+  ctx.session.visits = (ctx.session.visits || 0) + 1;
+  ctx.session.lastVisit = Date.now();
+  
+  await ctx.reply(
+    `📊 Visit #${ctx.session.visits}\n` +
+    `🕐 Last visit: ${new Date(ctx.session.lastVisit).toLocaleString()}`
+  );
+});
+
+bot.startPolling();
+```
+
+### Custom Plugin System
+
+```typescript
+import { PluginSystem, MiddlewareContext } from '@abdosaiko20/tg-sdk';
+
+const plugins = new PluginSystem();
+
+// Analytics plugin
+plugins.use(async (ctx: MiddlewareContext, next) => {
+  const startTime = Date.now();
+  const user = (ctx as any).user;
+  
+  console.log(`📊 [Analytics] User ${user?.id} started`);
+  
+  await next();
+  
+  const duration = Date.now() - startTime;
+  console.log(`📊 [Analytics] Completed in ${duration}ms`);
+  
+  // Send to your analytics service
+  await fetch('https://analytics.example.com/track', {
+    method: 'POST',
+    body: JSON.stringify({
+      userId: user?.id,
+      duration,
+      timestamp: Date.now()
+    })
+  });
+});
+
+// Rate limiter plugin
+plugins.use(async (ctx: MiddlewareContext, next) => {
+  const user = (ctx as any).user;
+  const userId = user?.id?.toString() || 'anonymous';
+  
+  // Simple in-memory rate limiting
+  const key = `rate_limit:${userId}`;
+  const requests = (globalThis as any).__rateLimitCache?.get(key) || 0;
+  
+  if (requests > 30) {
+    throw new Error('Rate limit exceeded');
+  }
+  
+  if (!(globalThis as any).__rateLimitCache) {
+    (globalThis as any).__rateLimitCache = new Map();
+  }
+  
+  (globalThis as any).__rateLimitCache.set(key, requests + 1);
+  setTimeout(() => {
+    (globalThis as any).__rateLimitCache.delete(key);
+  }, 60000);
+  
+  await next();
+});
+
+// Apply plugins
+bot.use(plugins.middleware());
+```
+
+### Next.js Route Handler (Full Example)
+
+```typescript
+// app/api/telegram/route.ts
+import { BotClient, Router, Context } from '@abdosaiko20/tg-sdk';
+import { NextResponse } from 'next/server';
+
+const bot = new BotClient({ token: process.env.TELEGRAM_BOT_TOKEN! });
+const router = new Router();
+
+// Setup routes
+router.command('start', async (ctx) => {
+  const c = ctx as Context;
+  await c.reply('Welcome to Next.js Telegram Bot! 🚀');
+});
+
+router.hears('status', async (ctx) => {
+  const c = ctx as Context;
+  const me = await bot.getMe();
+  await c.reply(`Bot Status:\n• Name: ${me.first_name}\n• Username: @${me.username}`);
+});
+
+// Webhook handler
+export async function POST(request: Request) {
   try {
     const update = await request.json();
-
-    // Process update
-    if (update.message) {
-      bot.emit('message', update.message);
-    } else if (update.callback_query) {
-      bot.emit('callback_query', update.callback_query);
-    }
-
+    
+    // Create context and process
+    const ctx = new Context(update, bot);
+    await router.middleware()(ctx, async () => {
+      // Default handler
+      if (update.message?.chat?.id) {
+        await bot.sendMessage(update.message.chat.id, 'Command not recognized');
+      }
+    });
+    
     return NextResponse.json({ ok: true });
   } catch (error) {
-    console.error('Error processing update:', error);
-    return NextResponse.json(
-      { ok: false, error: 'Internal server error' },
-      { status: 500 }
-    );
+    console.error('Webhook error:', error);
+    return NextResponse.json({ ok: false }, { status: 500 });
   }
 }
 
+// Webhook setup
 export async function GET() {
-  return NextResponse.json({
-    status: 'Bot webhook endpoint is running',
-    timestamp: new Date().toISOString(),
+  const webhookUrl = `${process.env.VERCEL_URL}/api/telegram`;
+  
+  await bot.setWebhook(webhookUrl, {
+    secret_token: process.env.WEBHOOK_SECRET
+  });
+  
+  return NextResponse.json({ 
+    ok: true, 
+    webhook: webhookUrl 
   });
 }
 ```
 
 ---
 
-## 🎯 Core Concepts
+## 📚 Complete API Reference
 
-### BotClient
+### BotClient Methods
 
-The `BotClient` is the main class for interacting with the Telegram Bot API.
+<details>
+<summary><strong>📨 Message Methods</strong></summary>
 
-```typescript
-import { BotClient } from '@abdosaiko20/tg-sdk';
+| Method | Description | Options |
+|--------|-------------|---------|
+| `sendMessage(chatId, text, options?)` | Send text message | `parse_mode`, `reply_markup`, `disable_notification`, etc. |
+| `sendPhoto(chatId, photo, options?)` | Send photo | `caption`, `has_spoiler`, `reply_markup` |
+| `sendVideo(chatId, video, options?)` | Send video | `duration`, `width`, `height`, `supports_streaming` |
+| `sendAudio(chatId, audio, options?)` | Send audio | `performer`, `title`, `thumbnail` |
+| `sendDocument(chatId, document, options?)` | Send document | `thumbnail`, `disable_content_type_detection` |
+| `sendAnimation(chatId, animation, options?)` | Send animation/GIF | `duration`, `has_spoiler` |
+| `sendVoice(chatId, voice, options?)` | Send voice note | `duration` |
+| `sendVideoNote(chatId, videoNote, options?)` | Send video note | `duration`, `length` |
+| `sendMediaGroup(chatId, media, options?)` | Send media group | Array of `InputMedia` |
+| `sendLocation(chatId, lat, lon, options?)` | Send location | `live_period`, `heading` |
+| `sendVenue(chatId, lat, lon, title, addr)` | Send venue | `foursquare_id`, `google_place_id` |
+| `sendContact(chatId, phone, name, options?)` | Send contact | `vcard` |
+| `sendPoll(chatId, question, options)` | Send poll | `type`, `allows_multiple_answers` |
+| `sendDice(chatId, options?)` | Send dice/emoji | `emoji` (🎲, 🎯, 🏀, ⚽, 🎳, 🎰) |
+| `sendSticker(chatId, sticker, options?)` | Send sticker | `emoji` |
+| `sendChatAction(chatId, action)` | Send typing/broadcast action | `typing`, `upload_photo`, etc. |
 
-const bot = new BotClient({
-  token: 'YOUR_BOT_TOKEN',
-  baseUrl: 'https://api.telegram.org',     // Optional - custom API URL
-  timeout: 30000,                           // Optional - request timeout (ms)
-  retry: {
-    maxRetries: 3,                          // Maximum retry attempts
-    retryDelay: 1000,                       // Delay between retries (ms)
-    retryOn: [429, 500, 502, 503, 504]     // HTTP status codes to retry
-  }
-});
-```
+</details>
 
-### Router & Middleware
+<details>
+<summary><strong>✏️ Edit & Delete Methods</strong></summary>
 
-The Router provides a clean way to organize bot handlers:
+| Method | Description |
+|--------|-------------|
+| `editMessageText(chatId, msgId, text, options?)` | Edit message text |
+| `editMessageCaption(chatId, msgId, options?)` | Edit media caption |
+| `editMessageMedia(chatId, msgId, media)` | Edit message media |
+| `editMessageReplyMarkup(chatId, msgId, markup)` | Edit inline keyboard |
+| `deleteMessage(chatId, msgId)` | Delete message |
+| `deleteMessages(chatId, msgIds[])` | Delete multiple messages |
+| `stopPoll(chatId, msgId)` | Stop a running poll |
 
-```typescript
-import { BotClient, Router, Context } from '@abdosaiko20/tg-sdk';
+</details>
 
-const bot = new BotClient({ token: 'TOKEN' });
-const router = new Router();
+<details>
+<summary><strong>👥 Chat Management</strong></summary>
 
-// Command handler
-router.command('start', async (ctx) => {
-  const context = ctx as Context;
-  await context.reply(
-    'Welcome! Use /help to see available commands.'
-  );
-});
+| Method | Description |
+|--------|-------------|
+| `getChat(chatId)` | Get chat information |
+| `getChatAdministrators(chatId)` | Get chat admins |
+| `getChatMemberCount(chatId)` | Get member count |
+| `getChatMember(chatId, userId)` | Get specific member |
+| `banChatMember(chatId, userId)` | Ban member |
+| `unbanChatMember(chatId, userId)` | Unban member |
+| `restrictChatMember(chatId, userId, perms)` | Restrict member |
+| `promoteChatMember(chatId, userId, opts)` | Promote to admin |
+| `setChatPermissions(chatId, permissions)` | Set default permissions |
+| `setChatTitle(chatId, title)` | Change chat title |
+| `setChatDescription(chatId, desc)` | Change description |
+| `setChatPhoto(chatId, photo)` | Change chat photo |
+| `deleteChatPhoto(chatId)` | Remove chat photo |
+| `pinChatMessage(chatId, msgId)` | Pin message |
+| `unpinChatMessage(chatId, msgId?)` | Unpin message |
+| `leaveChat(chatId)` | Bot leaves chat |
 
-// Text patterns
-router.hears('hello', async (ctx) => {
-  const context = ctx as Context;
-  await context.reply('Hello there! 👋');
-});
+</details>
 
-// Regex patterns
-router.hears(/age (\d+)/i, async (ctx) => {
-  const context = ctx as Context;
-  const age = context.match?.[1];
-  await context.reply(`You are ${age} years old!`);
-});
+<details>
+<summary><strong>💰 Payments & Stars</strong></summary>
 
-// Callback queries
-router.action('delete_post', async (ctx) => {
-  const context = ctx as Context;
-  await context.delete();
-  await context.answer('Post deleted!');
-});
+| Method | Description |
+|--------|-------------|
+| `sendInvoice(chatId, ...)` | Send payment invoice |
+| `createInvoiceLink(...)` | Create invoice link |
+| `answerShippingQuery(id, ok, opts)` | Answer shipping query |
+| `answerPreCheckoutQuery(id, ok, opts)` | Answer pre-checkout |
+| `createStarsInvoice(params)` | Create Stars invoice link |
+| `sendStarsInvoice(chatId, params)` | Send Stars invoice |
+| `refundStarPayment(userId, chargeId)` | Refund Stars payment |
 
-// Events
-router.event('chat_member', async (ctx) => {
-  const context = ctx as Context;
-  const update = context.update;
-  
-  if (update.my_chat_member?.new_chat_member.status === 'kicked') {
-    console.log('Bot was removed from a chat');
-  }
-});
+</details>
 
-// Connect router to bot
-bot.on('message', async (update) => {
-  const ctx = new Context(
-    { update_id: Date.now(), message: update } as any,
-    bot
-  );
-  
-  await router.middleware()(ctx, async () => {
-    // Default handler if no routes match
-    await bot.sendMessage(
-      ctx.chatId!,
-      'Command not recognized. Type /help for available commands.'
-    );
-  });
-});
+<details>
+<summary><strong>🔧 Webhook & Polling</strong></summary>
 
-bot.startPolling();
-```
+| Method | Description |
+|--------|-------------|
+| `startPolling(options?)` | Start long polling |
+| `stopPolling()` | Stop polling |
+| `setWebhook(url, options?)` | Set webhook URL |
+| `deleteWebhook(options?)` | Remove webhook |
+| `getWebhookInfo()` | Get webhook status |
+| `startWebhook(options?)` | Start webhook server |
+| `stopWebhook()` | Stop webhook server |
 
-### Keyboard Builders
+</details>
 
-#### Inline Keyboard
+---
+
+## 🎨 Keyboard Builders
+
+### Inline Keyboard
 
 ```typescript
 import { inlineKeyboard } from '@abdosaiko20/tg-sdk';
 
 const keyboard = inlineKeyboard()
-  // Row 1
-  .text('Option 1', 'option_1')
-  .text('Option 2', 'option_2')
-  .text('Option 3', 'option_3')
+  .text('🚀 Action', 'action_1')
+  .url('🌐 Visit Site', 'https://example.com')
   .row()
-  // Row 2
-  .url('Visit Website', 'https://example.com')
-  .webApp('Open App', 'https://app.example.com')
+  .webApp('📱 Open App', 'https://app.example.com')
+  .login('🔑 Login', { url: 'https://auth.example.com' })
   .row()
-  // Row 3
-  .login('Login', 'https://login.example.com')
-  .switchInline('Share', 'Check this out!')
+  .switchInline('📤 Share', 'check this out')
+  .switchInlineCurrentChat('💬 Share Here', 'look')
   .row()
-  // Row 4
-  .pay('⭐ 100 Stars')
+  .pay('⭐ Pay 100 Stars')
   .build();
-
-await bot.sendMessage(chatId, 'Choose an option:', {
-  reply_markup: keyboard
-});
 ```
 
-#### Reply Keyboard
+### Reply Keyboard
 
 ```typescript
-import { replyKeyboard } from '@abdosaiko20/tg-sdk';
+import { replyKeyboard, removeKeyboard, forceReply } from '@abdosaiko20/tg-sdk';
 
 const keyboard = replyKeyboard()
-  .text('📊 Statistics')
-  .text('📅 Schedule')
-  .row()
+  .text('📊 Stats')
   .text('⚙️ Settings')
-  .text('❓ Help')
   .row()
   .requestContact('📞 Share Contact')
   .requestLocation('📍 Share Location')
+  .row()
+  .requestPoll('📋 Create Poll')
+  .webApp('🚀 Launch App', 'https://app.example.com')
   .resize()
   .oneTime()
-  .placeholder('Choose an option from the menu...')
+  .placeholder('Choose an option...')
   .build();
 
-await bot.sendMessage(chatId, 'Main Menu:', {
-  reply_markup: keyboard
-});
+// Remove keyboard
+const remove = removeKeyboard();
+
+// Force reply
+const force = forceReply('Enter your name...');
 ```
 
-### Markdown & HTML Builders
+---
 
-#### MarkdownV2
+## 📝 Formatters
+
+### MarkdownV2
 
 ```typescript
 import { markdown, ParseMode } from '@abdosaiko20/tg-sdk';
 
 const message = markdown()
-  .bold('Welcome to our Bot!')
+  .bold('Important Announcement')
   .newLine()
   .newLine()
-  .italic('Here are your options:')
-  .newLine()
-  .text('• ')
-  .code('/start')
-  .text(' - Begin interaction')
-  .newLine()
-  .text('• ')
-  .code('/help')
-  .text(' - Get help')
+  .text('We are excited to share ')
+  .italic('amazing news')
+  .text(' with you!')
   .newLine()
   .newLine()
-  .quote('Tip: You can also use inline buttons below!')
+  .spoiler('Spoiler: Something big is coming!')
   .newLine()
-  .spoiler('Spoiler: There is a hidden feature!')
+  .newLine()
+  .link('👉 Learn More', 'https://example.com')
   .toString();
 
 await bot.sendMessage(chatId, message, {
@@ -634,23 +769,24 @@ await bot.sendMessage(chatId, message, {
 });
 ```
 
-#### HTML
+### HTML
 
 ```typescript
 import { html } from '@abdosaiko20/tg-sdk';
 
 const message = html()
-  .bold('Important Announcement')
+  .bold('Welcome!')
+  .newLine()
+  .text('This is ')
+  .italic('italic')
+  .text(' and this is ')
+  .underline('underlined')
+  .text('.')
   .newLine()
   .newLine()
-  .text('We are excited to announce our ')
-  .link('new feature', 'https://example.com')
-  .text('!')
+  .pre('const greeting = "Hello World";\nconsole.log(greeting);', 'javascript')
   .newLine()
-  .newLine()
-  .pre('const greeting = "Hello World!";', 'javascript')
-  .newLine()
-  .italic('Stay tuned for more updates!')
+  .link('🔗 Documentation', 'https://docs.example.com')
   .toString();
 
 await bot.sendMessage(chatId, message, {
@@ -658,622 +794,93 @@ await bot.sendMessage(chatId, message, {
 });
 ```
 
-### Session Management
+---
 
-```typescript
-import { BotClient, SessionManager } from '@abdosaiko20/tg-sdk';
+## ⚛️ React Hooks Reference
 
-const bot = new BotClient({ token: 'TOKEN' });
-
-// In-memory session (default)
-const session = new SessionManager();
-
-// Custom storage adapter (e.g., Redis)
-const redisSession = new SessionManager({
-  get: async (key) => {
-    const data = await redis.get(`session:${key}`);
-    return data ? JSON.parse(data) : null;
-  },
-  set: async (key, data) => {
-    await redis.set(
-      `session:${key}`,
-      JSON.stringify(data),
-      'EX',
-      3600 // 1 hour expiry
-    );
-  },
-  delete: async (key) => {
-    await redis.del(`session:${key}`);
-  }
-});
-
-// MongoDB storage adapter
-const mongoSession = new SessionManager({
-  get: async (key) => {
-    return await SessionModel.findOne({ userId: key }).lean();
-  },
-  set: async (key, data) => {
-    await SessionModel.updateOne(
-      { userId: key },
-      { $set: { ...data, updatedAt: new Date() } },
-      { upsert: true }
-    );
-  },
-  delete: async (key) => {
-    await SessionModel.deleteOne({ userId: key });
-  }
-});
-
-// Use session middleware
-bot.on('message', session.middleware());
-bot.on('message', async (msg) => {
-  // Session is available in middleware context
-  // Use with Router for best results
-});
-```
-
-### Plugin System
-
-```typescript
-import { BotClient, PluginSystem } from '@abdosaiko20/tg-sdk';
-
-const bot = new BotClient({ token: 'TOKEN' });
-const plugins = new PluginSystem();
-
-// Logger plugin
-const loggerPlugin = async (ctx, next) => {
-  const start = Date.now();
-  console.log(`📥 Update from ${ctx.user?.id}`);
-  
-  await next();
-  
-  const duration = Date.now() - start;
-  console.log(`✅ Processed in ${duration}ms`);
-};
-
-// Rate limiter plugin
-const rateLimiterPlugin = async (ctx, next) => {
-  const userId = ctx.user?.id;
-  if (!userId) return next();
-  
-  const requests = await redis.incr(`rate:${userId}`);
-  await redis.expire(`rate:${userId}`, 60);
-  
-  if (requests > 30) {
-    throw new Error('Rate limit exceeded');
-  }
-  
-  await next();
-};
-
-// Error handler plugin
-const errorHandlerPlugin = async (ctx, next) => {
-  try {
-    await next();
-  } catch (error) {
-    console.error('Plugin error:', error);
-    await bot.sendMessage(
-      ctx.chatId!,
-      'An error occurred. Please try again later.'
-    );
-  }
-};
-
-// Register plugins
-plugins.use(loggerPlugin);
-plugins.use(rateLimiterPlugin);
-plugins.use(errorHandlerPlugin);
-
-// Apply to bot
-bot.use(plugins.middleware());
-```
+| Hook | Description | Returns |
+|------|-------------|---------|
+| `useTelegram()` | Core Telegram info | `{ isTelegram, isMiniApp, platform, version }` |
+| `useTelegramUser()` | Current user data | `TelegramUser \| null` |
+| `useTelegramTheme()` | Theme information | `{ params, isDark }` |
+| `useTelegramMainButton()` | Main button controls | `{ show, hide, setText, onClick, ... }` |
+| `useTelegramBackButton()` | Back button controls | `{ show, hide, onClick }` |
+| `useTelegramSettingsButton()` | Settings button | `{ show, hide, onClick }` |
+| `useTelegramViewport()` | Viewport info | `{ height, width, isExpanded, ... }` |
+| `useTelegramPopup()` | Popup dialogs | `{ show, alert, confirm }` |
+| `useTelegramHapticFeedback()` | Haptic feedback | `{ impactOccurred, notificationOccurred }` |
+| `useTelegramCloudStorage()` | Cloud storage | `{ get, set, remove, loading, error }` |
+| `useTelegramClipboard()` | Clipboard access | `{ copy, read }` |
+| `useTelegramEvent(event, cb)` | Event listener | `void` |
 
 ---
 
-## 🔥 Advanced Usage
+## 🌐 Platform Support
 
-### Broadcast System
-
-```typescript
-const broadcastResult = await bot.broadcast(
-  'sendMessage',
-  {
-    text: '🔥 Important Announcement!\n\nWe have launched new features!',
-    parse_mode: 'HTML',
-    disable_notification: false,
-  },
-  {
-    chatIds: [123456789, 987654321, 555555555],
-    concurrency: 10,        // Send to 10 users simultaneously
-    delay: 500,             // 500ms delay between batches
-    stopOnError: false,     // Continue even if some fail
-    
-    onStart: (total) => {
-      console.log(`📡 Starting broadcast to ${total} users`);
-    },
-    
-    onProgress: (current, total) => {
-      const percentage = Math.round((current / total) * 100);
-      console.log(`📊 Progress: ${current}/${total} (${percentage}%)`);
-    },
-    
-    onSuccess: (chatId, result) => {
-      console.log(`✅ Successfully sent to ${chatId}`);
-    },
-    
-    onError: (chatId, error) => {
-      console.error(`❌ Failed to send to ${chatId}:`, error.message);
-    },
-    
-    onFinish: (results) => {
-      const successful = results.filter(r => r.success).length;
-      const failed = results.filter(r => !r.success).length;
-      
-      console.log('📋 Broadcast Summary:');
-      console.log(`   ✅ Successful: ${successful}`);
-      console.log(`   ❌ Failed: ${failed}`);
-      console.log(`   📊 Success Rate: ${((successful / results.length) * 100).toFixed(2)}%`);
-    }
-  }
-);
-```
-
-### Telegram Stars (Payments)
-
-```typescript
-// Create a Stars invoice link
-const invoiceLink = await bot.createStarsInvoice({
-  title: 'Premium Subscription',
-  description: 'Get access to premium features for 1 month',
-  payload: 'premium_monthly_subscription',
-  currency: 'XTR',
-  prices: [
-    { label: 'Premium Features', amount: 100 },
-    { label: 'Priority Support', amount: 50 }
-  ],
-  max_tip_amount: 200,
-  suggested_tip_amounts: [100, 150, 200],
-  photo_url: 'https://example.com/premium-banner.jpg',
-  need_name: true,
-  need_email: true,
-  need_phone_number: true,
-  is_flexible: false,
-});
-
-// Send Stars invoice directly to a user
-const invoiceMessage = await bot.sendStarsInvoice(chatId, {
-  title: 'Premium Access',
-  description: 'Unlock all premium features',
-  payload: 'premium_access',
-  prices: [{ label: 'Premium', amount: 150 }],
-  photo_url: 'https://example.com/premium.jpg',
-});
-
-// Handle pre-checkout queries
-bot.on('pre_checkout_query', async (query) => {
-  // Validate the order
-  const isValid = await validateOrder(query.invoice_payload);
-  
-  await bot.answerPreCheckoutQuery(query.id, isValid, {
-    error_message: isValid ? undefined : 'Order validation failed'
-  });
-});
-
-// Handle successful payments
-bot.on('message', async (message) => {
-  if (message.successful_payment) {
-    const payment = message.successful_payment;
-    
-    // Grant access to premium features
-    await grantPremiumAccess(
-      message.from.id,
-      payment.invoice_payload
-    );
-    
-    await bot.sendMessage(
-      message.chat.id,
-      '✅ Thank you for your purchase! You now have premium access.'
-    );
-  }
-});
-
-// Refund a payment
-const refundResult = await bot.refundStarPayment(
-  userId,
-  'telegram_payment_charge_id'
-);
-
-if (refundResult) {
-  console.log('Payment refunded successfully');
-}
-```
-
-### File Handling
-
-```typescript
-// Send a photo from URL
-await bot.sendPhoto(chatId, 'https://example.com/photo.jpg', {
-  caption: 'Check out this photo!',
-  has_spoiler: false
-});
-
-// Send a local file
-import { readFileSync } from 'fs';
-
-const photoBuffer = readFileSync('./photo.jpg');
-const blob = new Blob([photoBuffer], { type: 'image/jpeg' });
-
-await bot.sendPhoto(chatId, blob, {
-  caption: 'Local photo upload'
-});
-
-// Download a file
-const fileId = 'AgACAgIAAxkBAA...';
-const fileData = await bot.downloadFile(fileId);
-
-// Save to disk
-import { writeFileSync } from 'fs';
-writeFileSync('./downloaded_file.jpg', Buffer.from(fileData));
-
-// Get file info
-const fileInfo = await bot.getFile(fileId);
-console.log('File path:', fileInfo.file_path);
-console.log('File size:', fileInfo.file_size);
-
-// Get direct download URL
-const downloadUrl = bot.getFileUrl(fileInfo.file_path);
-console.log('Download URL:', downloadUrl);
-```
+| Platform | Support | Notes |
+|----------|---------|-------|
+| **Node.js** 18+ | ✅ Full | All features supported |
+| **Node.js** 20+ | ✅ Full | Recommended |
+| **Node.js** 22+ | ✅ Full | Latest LTS |
+| **Deno** | ✅ Full | Import from npm |
+| **Bun** | ✅ Full | Native support |
+| **Cloudflare Workers** | ✅ | Webhook mode only |
+| **Vercel Edge** | ✅ | Route handlers |
+| **React** 16.8+ | ✅ | All hooks |
+| **Next.js** 13+ | ✅ | App & Pages Router |
+| **Vue 3** | ✅ | Composition API |
+| **Svelte/SvelteKit** | ✅ | Full support |
+| **Angular 12+** | ✅ | Services |
+| **Nuxt 3** | ✅ | Auto-import |
 
 ---
 
-## 📚 API Reference
+## 💖 Support the Project
 
-### BotClient Methods
+<p align="center">
+  <strong>If you find this SDK useful, please consider supporting its development:</strong>
+</p>
 
-#### 📨 Message Methods
-| Method | Description |
-|--------|-------------|
-| `sendMessage(chatId, text, options?)` | Send text message |
-| `sendPhoto(chatId, photo, options?)` | Send photo |
-| `sendVideo(chatId, video, options?)` | Send video |
-| `sendAudio(chatId, audio, options?)` | Send audio |
-| `sendDocument(chatId, doc, options?)` | Send document |
-| `sendAnimation(chatId, animation, options?)` | Send animation (GIF) |
-| `sendVoice(chatId, voice, options?)` | Send voice message |
-| `sendVideoNote(chatId, note, options?)` | Send video note |
-| `sendMediaGroup(chatId, media, options?)` | Send media group |
-| `sendLocation(chatId, lat, lon, options?)` | Send location |
-| `sendVenue(chatId, lat, lon, title, address, options?)` | Send venue |
-| `sendContact(chatId, phone, name, options?)` | Send contact |
-| `sendPoll(chatId, question, options, config?)` | Send poll |
-| `sendDice(chatId, options?)` | Send dice |
-| `sendSticker(chatId, sticker, options?)` | Send sticker |
-| `sendGame(chatId, gameName, options?)` | Send game |
-| `sendInvoice(chatId, ...invoiceParams)` | Send invoice |
-| `sendChatAction(chatId, action)` | Send chat action |
+<p align="center">
+  <a href="https://t.me/abdosaiko20">
+    <img src="https://img.shields.io/badge/📱_Telegram-@abdosaiko20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="#">
+    <img src="https://img.shields.io/badge/💎_TON_Wallet-UQBhv7U7Jt_HH6S219IrqM4ARl6S-d_3xxgf5tbw5DgGsxch-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet"/>
+  </a>
+</p>
 
-#### ✏️ Edit Methods
-| Method | Description |
-|--------|-------------|
-| `editMessageText(chatId, msgId, text, options?)` | Edit message text |
-| `editMessageCaption(chatId, msgId, options?)` | Edit caption |
-| `editMessageMedia(chatId, msgId, media, options?)` | Edit media |
-| `editMessageReplyMarkup(chatId, msgId, options?)` | Edit reply markup |
+<p align="center">
+  <strong>TON Wallet Address:</strong><br/>
+  <code>UQB...... (your TON wallet address here)</code>
+</p>
 
-#### 🗑️ Delete Methods
-| Method | Description |
-|--------|-------------|
-| `deleteMessage(chatId, msgId)` | Delete single message |
-| `deleteMessages(chatId, msgIds)` | Delete multiple messages |
-
-#### 📋 Chat Methods
-| Method | Description |
-|--------|-------------|
-| `getChat(chatId)` | Get chat information |
-| `getChatAdministrators(chatId)` | Get chat admins |
-| `getChatMemberCount(chatId)` | Get member count |
-| `getChatMember(chatId, userId)` | Get member info |
-| `leaveChat(chatId)` | Leave chat |
-| `banChatMember(chatId, userId)` | Ban member |
-| `unbanChatMember(chatId, userId)` | Unban member |
-| `restrictChatMember(chatId, userId, perms)` | Restrict member |
-| `promoteChatMember(chatId, userId, rights)` | Promote member |
-| `setChatPermissions(chatId, perms)` | Set permissions |
-| `setChatPhoto(chatId, photo)` | Set chat photo |
-| `deleteChatPhoto(chatId)` | Delete chat photo |
-| `setChatTitle(chatId, title)` | Set chat title |
-| `setChatDescription(chatId, desc)` | Set description |
-| `pinChatMessage(chatId, msgId)` | Pin message |
-| `unpinChatMessage(chatId, msgId?)` | Unpin message |
-
-#### 🔗 Invite Methods
-| Method | Description |
-|--------|-------------|
-| `exportChatInviteLink(chatId)` | Export invite link |
-| `createChatInviteLink(chatId, options)` | Create invite link |
-| `editChatInviteLink(chatId, link, options)` | Edit invite link |
-| `revokeChatInviteLink(chatId, link)` | Revoke invite link |
-
-#### 👤 User Methods
-| Method | Description |
-|--------|-------------|
-| `getMe()` | Get bot info |
-| `getUserProfilePhotos(userId, options?)` | Get profile photos |
-
-#### 📁 File Methods
-| Method | Description |
-|--------|-------------|
-| `getFile(fileId)` | Get file info |
-| `downloadFile(fileIdOrPath)` | Download file |
-| `getFileUrl(filePath)` | Get file URL |
-
-#### 💳 Payment Methods
-| Method | Description |
-|--------|-------------|
-| `sendInvoice(...)` | Send invoice |
-| `createInvoiceLink(...)` | Create invoice link |
-| `answerShippingQuery(id, ok, options?)` | Answer shipping query |
-| `answerPreCheckoutQuery(id, ok, options?)` | Answer pre-checkout |
-| `createStarsInvoice(params)` | Create Stars invoice |
-| `sendStarsInvoice(chatId, params)` | Send Stars invoice |
-| `refundStarPayment(userId, chargeId)` | Refund Stars payment |
-
-#### 🎮 Game Methods
-| Method | Description |
-|--------|-------------|
-| `sendGame(chatId, gameName, options?)` | Send game |
-| `setGameScore(userId, score, options?)` | Set game score |
-| `getGameHighScores(userId, options?)` | Get high scores |
-
-#### 🏷️ Sticker Methods
-| Method | Description |
-|--------|-------------|
-| `getStickerSet(name)` | Get sticker set |
-| `uploadStickerFile(userId, sticker, format)` | Upload sticker |
-| `createNewStickerSet(userId, name, title, stickers)` | Create sticker set |
-| `addStickerToSet(userId, name, sticker)` | Add sticker |
-| `deleteStickerFromSet(sticker)` | Delete sticker |
-| `setStickerSetThumbnail(name, userId, thumb?)` | Set thumbnail |
-
-#### 📢 Forum Methods
-| Method | Description |
-|--------|-------------|
-| `createForumTopic(chatId, name, options?)` | Create topic |
-| `editForumTopic(chatId, threadId, options?)` | Edit topic |
-| `closeForumTopic(chatId, threadId)` | Close topic |
-| `reopenForumTopic(chatId, threadId)` | Reopen topic |
-| `deleteForumTopic(chatId, threadId)` | Delete topic |
-
-#### 🌐 Webhook Methods
-| Method | Description |
-|--------|-------------|
-| `setWebhook(url, options?)` | Set webhook |
-| `deleteWebhook(options?)` | Delete webhook |
-| `getWebhookInfo()` | Get webhook info |
-| `startWebhook(options?)` | Start webhook server |
-| `stopWebhook()` | Stop webhook server |
-
-#### 📡 Polling Methods
-| Method | Description |
-|--------|-------------|
-| `startPolling(options?)` | Start long polling |
-| `stopPolling()` | Stop polling |
-
----
-
-## 🔷 TypeScript Support
-
-The SDK is written in TypeScript and provides complete type definitions out of the box.
-
-```typescript
-import type {
-  TelegramMessage,
-  TelegramUser,
-  TelegramChat,
-  CallbackQuery,
-  InlineQuery,
-  ChatMember,
-  WebAppInitData,
-  ThemeParams,
-  BotConfig,
-  BroadcastConfig,
-  // ... and many more
-} from '@abdosaiko20/tg-sdk';
-
-// Full type safety
-const handleMessage = (message: TelegramMessage) => {
-  const chat: TelegramChat = message.chat;
-  const user: TelegramUser | undefined = message.from;
-  
-  if (user?.is_premium) {
-    // Premium user logic
-  }
-};
-```
-
----
-
-## 🌍 Platform Support
-
-| Platform | Status | Notes |
-|----------|--------|-------|
-| **Node.js 18+** | ✅ Full Support | Native fetch API |
-| **Node.js 20+** | ✅ Full Support | Recommended |
-| **Node.js 22+** | ✅ Full Support | Latest features |
-| **Deno** | ✅ Full Support | Native TypeScript |
-| **Bun** | ✅ Full Support | Fast runtime |
-| **Cloudflare Workers** | ✅ Full Support | Edge computing |
-| **Vercel Edge** | ✅ Full Support | Edge runtime |
-| **React 16.8+** | ✅ Full Support | Hooks API |
-| **React 18+** | ✅ Full Support | Concurrent features |
-| **Next.js 13+** | ✅ Full Support | App & Pages Router |
-| **Next.js 14+** | ✅ Full Support | Latest features |
-| **Vue 3** | ✅ Full Support | Composition API |
-| **Svelte 4+** | ✅ Full Support | Runes support |
-| **Angular 12+** | ✅ Full Support | Ivy engine |
-| **Nuxt 3** | ✅ Full Support | SSR/SSG |
-| **Browser** | ✅ Full Support | Mini Apps |
-
----
-
-## 📝 Examples
-
-Check out our [examples directory](https://github.com/yourusername/tg-sdk/tree/main/examples) for more:
-
-- [Simple Echo Bot](https://github.com/yourusername/tg-sdk/tree/main/examples/echo-bot)
-- [Full-Featured Bot with Router](https://github.com/yourusername/tg-sdk/tree/main/examples/router-bot)
-- [Payment Bot with Stars](https://github.com/yourusername/tg-sdk/tree/main/examples/payment-bot)
-- [Mini App with React](https://github.com/yourusername/tg-sdk/tree/main/examples/react-mini-app)
-- [Next.js Mini App](https://github.com/yourusername/tg-sdk/tree/main/examples/nextjs-mini-app)
-- [Webhook Bot with Express](https://github.com/yourusername/tg-sdk/tree/main/examples/webhook-express)
-- [Serverless Bot (Vercel)](https://github.com/yourusername/tg-sdk/tree/main/examples/vercel-serverless)
-- [Broadcast System](https://github.com/yourusername/tg-sdk/tree/main/examples/broadcast)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](https://github.com/yourusername/tg-sdk/blob/main/CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/tg-sdk.git
-cd tg-sdk
-
-# Install dependencies
-npm install
-
-# Build the project
-npm run build
-
-# Run tests
-npm test
-
-# Run linter
-npm run lint
-
-# Format code
-npm run format
-```
-
-### Project Structure
-
-```
-tg-sdk/
-├── src/
-│   ├── types.ts          # TypeScript type definitions
-│   ├── core.ts           # Core Telegram detection & utilities
-│   ├── bot.ts            # Bot API client
-│   ├── mini-app.ts       # Mini Apps API
-│   ├── keyboard.ts       # Keyboard builders
-│   ├── markdown.ts       # Markdown & HTML builders
-│   ├── middleware.ts     # Middleware, Router, Session, Plugins
-│   ├── utils.ts          # Utility functions
-│   ├── react.ts          # React hooks
-│   └── index.ts          # Main entry point
-├── examples/             # Example projects
-├── tests/                # Test files
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
----
-
-## 🔒 Security
-
-### Best Practices
-
-1. **Never expose your bot token**: Use environment variables
-2. **Validate webhook requests**: Use `secret_token` for webhook security
-3. **Rate limit users**: Use the plugin system for rate limiting
-4. **Sanitize user input**: Escape markdown/HTML in user-generated content
-5. **Use HTTPS for webhooks**: Always use HTTPS in production
-
-### Reporting Vulnerabilities
-
-If you discover a security vulnerability, please email us at [security@example.com](mailto:security@example.com). Do not open a public issue.
-
----
-
-## ❓ FAQ
-
-<details>
-<summary><strong>What's the difference between Polling and Webhook?</strong></summary>
-
-- **Polling**: The bot continuously asks Telegram for new updates. Simpler to set up, but less efficient.
-- **Webhook**: Telegram sends updates to your server. More efficient, but requires a public HTTPS URL.
-</details>
-
-<details>
-<summary><strong>Can I use this SDK in the browser?</strong></summary>
-
-Yes! The Mini Apps part of the SDK is designed to run in Telegram's WebView browser. The Bot API part requires Node.js or a server environment.
-</details>
-
-<details>
-<summary><strong>How do I handle millions of users?</strong></summary>
-
-Use the broadcast system with proper concurrency settings, implement caching, use a database for sessions, and consider horizontal scaling with webhooks.
-</details>
-
-<details>
-<summary><strong>Does this support Telegram Stars?</strong></summary>
-
-Yes! Full support for creating and sending Stars invoices, handling pre-checkout queries, and refunding payments.
-</details>
-
-<details>
-<summary><strong>Can I use custom storage for sessions?</strong></summary>
-
-Yes! The SessionManager supports custom storage adapters. You can use Redis, MongoDB, PostgreSQL, or any other storage solution.
-</details>
-
----
-
-## 📊 Changelog
-
-See [CHANGELOG.md](https://github.com/yourusername/tg-sdk/blob/main/CHANGELOG.md) for a detailed history of changes.
+<p align="center">
+  ⭐ Star this repository if you find it useful!<br/>
+  🐛 Report issues and suggest features<br/>
+  🤝 Contributions are always welcome!
+</p>
 
 ---
 
 ## 📄 License
 
-MIT License - see the [LICENSE](https://github.com/yourusername/tg-sdk/blob/main/LICENSE) file for details.
+MIT © [@abdosaiko20](https://github.com/saikomohamed144)
 
 ---
 
-## 🙏 Acknowledgments
+## 🔗 Links
 
-- [Telegram Bot API](https://core.telegram.org/bots/api) - Official documentation
-- [Telegram Mini Apps](https://core.telegram.org/bots/webapps) - WebApp documentation
-- All our [contributors](https://github.com/yourusername/tg-sdk/graphs/contributors)
-
----
-
-## 📞 Support
-
-- 📚 [Documentation](https://github.com/yourusername/tg-sdk/wiki)
-- 🐛 [Issue Tracker](https://github.com/yourusername/tg-sdk/issues)
-- 💬 [Telegram Community](https://t.me/tg_sdk_community)
-- 📧 [Email Support](mailto:support@example.com)
+- 📦 [NPM Package](https://www.npmjs.com/package/saikomohamed144/tg-sdk)
+- 💻 [GitHub Repository](https://github.com/saikomohamed144/tg-sdk)
+- 🐛 [Issue Tracker](https://github.com/saikomohamed144/tg-sdk/issues)
+- 📖 [Telegram Bot API Docs](https://core.telegram.org/bots/api)
+- 📱 [Telegram Mini Apps Docs](https://core.telegram.org/bots/webapps)
+- 💎 [TON Blockchain](https://ton.org)
 
 ---
 
 <p align="center">
-  <strong>⭐ If you find this project useful, please give it a star on GitHub!</strong>
+  <sub>Built with ❤️ by <a href="https://t.me/abdosaiko20">@abdosaiko20</a></sub>
 </p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/@abdosaiko20/tg-sdk">
-    <img src="https://nodei.co/npm/@abdosaiko20/tg-sdk.png?downloads=true&downloadRank=true&stars=true" alt="npm stats">
-  </a>
-</p>
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/abdosaiko20">@abdosaiko20</a>
-</p>
-```

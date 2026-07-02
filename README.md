@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ibb.co/Tx1bChYM" alt="@abdosaiko20/tg-sdk" width="200"/>
+  <img src="https://i.postimg.cc/tRMw2ngv/Telegram-Logo-700x394.png" alt="@abdosaiko20/tg-sdk" width="200"/>
 </p>
 
 <h1 align="center">@abdosaiko20/tg-sdk</h1>
@@ -41,7 +41,7 @@
     <img src="https://img.shields.io/badge/Telegram-@abdosaiko20-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
   <a href="https://ton.org/">
-    <img src="https://img.shields.io/badge/TON_Wallet-UQC...xyz-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet"/>
+    <img src="https://img.shields.io/badge/TON_Wallet-UQBhv7U7Jt_HH6S219IrqM4ARl6S-d_3xxgf5tbw5DgGsxch-0098EA?style=for-the-badge&logo=ton&logoColor=white" alt="TON Wallet"/>
   </a>
 </p>
 
@@ -853,7 +853,7 @@ await bot.sendMessage(chatId, message, {
 
 <p align="center">
   <strong>TON Wallet Address:</strong><br/>
-  <code>UQB...... (your TON wallet address here)</code>
+  <code>UQBhv7U7Jt_HH6S219IrqM4ARl6S-d_3xxgf5tbw5DgGsxch</code>
 </p>
 
 <p align="center">

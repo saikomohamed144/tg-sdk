@@ -1007,3 +1007,22 @@ export interface LabeledPrice {
   label: string;
   amount: number;
 }
+
+export interface QueueItem<T = unknown> {
+  id: string;
+  task: () => Promise<T>;
+  resolve: (value: T) => void;
+  reject: (error: Error) => void;
+}
+
+export interface CacheItem<T = unknown> {
+  value: T;
+  expiresAt: number;
+}
+
+export interface RequestOptions {
+  method?: string;
+  headers?: Record<string, string>;
+  timeout?: number;
+  signal?: AbortSignal;
+}
